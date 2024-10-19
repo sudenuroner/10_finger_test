@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(161, 120, 199);
+}
+
+.container {
+    padding: 50px;
+    width: 80vmin;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.stats {
+    text-align: right;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.stats span {
+    font-weight: 600;
+}
+
+#quote {
+    text-align: justify;
+    margin: 50px 0px 30px 0px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-size: 16px;
+    resize: none;
+}
+
+button {
+    float: right;
+    margin-top: 20px;
+    background-color: #dd1670;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.result {
+    margin-top: 40px;
+    display: none;
+}
+
+.result h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.wrapper {
+    font-weight: 600;
+}
+
+.success {
+    color: #44b267;
+}
+
+.fail {
+    color: #e81c4e;
+}
